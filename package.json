@@ -1,0 +1,23 @@
+{
+  "name": "uni-logistics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsz1234/uni-logistics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsz1234/uni-logistics/issues"
+  },
+  "homepage": "https://github.com/dsz1234/uni-logistics#readme",
+  "dependencies": {
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "uni-app-fetch": "^0.0.3"
+  }
+}
