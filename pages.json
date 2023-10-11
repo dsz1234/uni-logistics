@@ -4,13 +4,14 @@
       "path": "pages/task/index",
       "style": {
         "navigationBarTitleText": "",
-        "enablePullDownRefresh": false
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
       }
     },
     {
       "path": "pages/login/index",
       "style": {
-        "navigationBarTitleText": "",
+        "navigationBarTitleText": "神领快递",
         "enablePullDownRefresh": false
       }
     },
@@ -18,26 +19,26 @@
       "path": "pages/my/index",
       "style": {
         "navigationBarTitleText": "",
-        "enablePullDownRefresh": false
+        "navigationBarBackgroundColor": "#f05648",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
       }
     },
     {
       "path": "pages/message/index",
       "style": {
+        "navigationBarTitleText": "消息",
+        "enablePullDownRefresh": false
+      }
+    }, {
+      "path": "pages/login/components/account",
+      "style": {
         "navigationBarTitleText": "",
         "enablePullDownRefresh": false
       }
+
     }
-      ,{
-            "path" : "pages/login/components/account",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-    ],
+  ],
   "globalStyle": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "神领物流",
@@ -69,5 +70,56 @@
         "selectedIconPath": "static/tabbar/my_selected.png"
       }
     ]
-  }
+  },
+  "subPackages": [{
+      "root": "subpkg_user",
+      "pages": [{
+          "path": "truck/index",
+          "style": {
+            "navigationBarTitleText": "车辆信息"
+          }
+        },
+        {
+          "path": "task/index",
+          "style": {
+            "navigationBarTitleText": "任务数据"
+          }
+        },
+        {
+          "path": "settings/index",
+          "style": {
+            "navigationBarTitleText": "系统设置"
+          }
+        },
+        {
+          "path": "content/index",
+          "style": {
+            "navigationBarTitleText": "详情"
+          }
+        }
+      ]
+    },
+    {
+      "root": "subpkg_task",
+      "pages": [{
+          "path": "detail/index",
+          "style": {
+            "navigationBarTitleText": "任务详情"
+          }
+        },
+        {
+          "path": "pickup/index",
+          "style": {
+            "navigationBarTitleText": "提货信息"
+          }
+        },
+        {
+          "path": "delay/index",
+          "style": {
+            "navigationBarTitleText": "延迟提货"
+          }
+        }
+      ]
+    }
+  ]
 }

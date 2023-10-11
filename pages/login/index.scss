@@ -1,0 +1,24 @@
+.user-login {
+  padding: 0 66rpx;
+  .login-type {
+    margin: 100rpx 0 91rpx 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 66rpx;
+    .title {
+      font-weight: 600;
+      font-size: 48rpx;
+      color: #2a2929;
+    }
+    .type {
+      font-weight: 500;
+      font-size: 32rpx;
+      color: #ef4f3f;
+      .icon-caret {
+        font-size: 50%;
+        margin-left: 14rpx;
+      }
+    }
+  }
+}

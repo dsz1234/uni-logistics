@@ -31,3 +31,12 @@ $uni-white-color: #ffffff;
 $uni-font-size-big: 36rpx;
 $uni-font-size-base: 32rpx;
 $uni-font-size-small: 28rpx;
+
+.page-container {
+  background-color: $uni-bg-color;
+  height: 100vh;
+}
+
+.error {
+  color: $uni-main-color !important;
+}
