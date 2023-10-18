@@ -25,3 +25,32 @@ export const delay = (data) => {
     data
   });
 };
+// 提货
+export const takeDelivery = (data) => {
+  return uniFetch({
+    url: '/driver/tasks/takeDelivery',
+    method: 'POST',
+    data
+  });
+};
+// 交付
+export const deliver = (data) => {
+  return uniFetch({
+    url: '/driver/tasks/deliver',
+    method: 'POST',
+    data
+  });
+};
+// 上报异常
+export const reportException = (data) => {
+  return uniFetch({
+    url: '/driver/tasks/reportException',
+    method: 'POST',
+    data
+  });
+};
+
+// 回车登记
+export const truckRegistration = (data) => {
+  return uniFetch.post('/driver/tasks/truckRegistration', data);
+};

@@ -60,12 +60,21 @@ const submitForm = async () => {
     if (res.data) store.token = res.data;
 
     // 跳转到token过期前的页面
-    if (redirectURL.value == undefined) {
+    // if (redirectURL.value == undefined) {
+    //   uni.switchTab({
+    //     url: '/pages/task/index'
+    //   });
+    // } else {
+    //   uni[routeType.value]({
+    //     url: redirectURL.value
+    //   });
+    // }
+    if (routeType.value === 'switchTab') {
       uni.switchTab({
-        url: '/pages/task/index'
+        url: redirectURL.value
       });
     } else {
-      uni[routeType.value]({
+      uni.redirectTo({
         url: redirectURL.value
       });
     }
@@ -86,8 +95,8 @@ const show = ref(false);
       <input :type="show ? 'text' : 'password'" class="uni-input-input" v-model="formData.password" placeholder="请输入密码" />
       <view class="right">
         <text class="gb" @click="formData.password = ''">x</text>
-        <image v-if="show" src="../../../static/images/眼睛.png" mode="" @click="show = !show"></image>
-        <image v-else src="../../../static/images/眼睛_闭.png" mode="" @click="show = !show"></image>
+        <image v-if="show" src="../../../static/images/eye.png" mode="" @click="show = !show"></image>
+        <image v-else src="../../../static/images/beye.png" mode="" @click="show = !show"></image>
       </view>
     </uni-forms-item>
   </uni-forms>

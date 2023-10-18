@@ -1,0 +1,1 @@
+<view class="user-login"><view class="login-type"><view class="title">{{a}}</view><view class="type"><text bindtap="{{c}}">{{b}}</text><text class="iconfont icon-caret"></text></view></view><account wx:if="{{d}}" u-i="4cf689b2-0" bind:__l="__l"></account><mobile wx:else u-i="4cf689b2-1" bind:__l="__l"></mobile></view>

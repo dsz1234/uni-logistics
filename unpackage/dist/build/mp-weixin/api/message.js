@@ -1,0 +1,1 @@
+"use strict";const e=require("./uni-fetch.js");exports.getMessage=s=>e.uniFetch({url:"/driver/messages/page",method:"GET",data:s}),exports.getReadAll=s=>e.uniFetch.put(`/driver/messages/readAll/${s}`);

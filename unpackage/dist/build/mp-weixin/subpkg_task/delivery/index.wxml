@@ -1,0 +1,1 @@
+<view class="page-container"><view class="receipt-info"><uni-file-picker wx:if="{{b}}" u-i="57c4aeb8-0" bind:__l="__l" bindupdateModelValue="{{a}}" u-p="{{b}}"/><uni-file-picker wx:if="{{d}}" u-i="57c4aeb8-1" bind:__l="__l" bindupdateModelValue="{{c}}" u-p="{{d}}"/></view></view>

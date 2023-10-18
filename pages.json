@@ -118,6 +118,24 @@
           "style": {
             "navigationBarTitleText": "延迟提货"
           }
+        },
+        {
+          "path": "delivery/index",
+          "style": {
+            "navigationBarTitleText": "交货信息"
+          }
+        },
+        {
+          "path": "except/index",
+          "style": {
+            "navigationBarTitleText": "上报异常"
+          }
+        },
+        {
+          "path": "record/index",
+          "style": {
+            "navigationBarTitleText": "回车登记"
+          }
         }
       ]
     }

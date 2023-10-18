@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "pickup": "./components/pickup",
+    "complete": "./components/complete",
+    "en-route": "./components/enRoute"
+  }
+}

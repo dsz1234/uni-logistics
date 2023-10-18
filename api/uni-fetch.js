@@ -11,7 +11,12 @@ const tabBarPagePaths = ['pages/task/index', 'pages/message/index', 'pages/my/in
 const uniFetch = createUniFetch({
   // loading加载
   loading: { title: '加载中...' },
+  // #ifndef h5
   baseURL: 'https://slwl-api.itheima.net',
+  // #endif
+  // #ifdef H5
+  baseURL: '/dev-api',
+  // #endif
   intercept: {
     // 请求拦截器
     request(options) {

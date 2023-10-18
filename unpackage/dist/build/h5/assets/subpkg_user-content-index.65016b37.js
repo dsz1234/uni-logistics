@@ -1,0 +1,1 @@
+import{o as s,c as a,w as o,g as e,e as t}from"./index-d88a521f.js";import{o as n}from"./uni-app.es.c0a9eb75.js";const r={__name:"index",setup:r=>(n((s=>{console.log(s)})),(n,r)=>{const p=e;return s(),a(p,{class:""},{default:o((()=>[t("详情")])),_:1})})};export{r as default};

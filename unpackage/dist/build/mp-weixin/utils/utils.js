@@ -1,0 +1,1 @@
+"use strict";const t=require("../common/vendor.js"),e={toast(e="",n="none"){t.index.showToast({title:e,icon:n,mask:!0})},getYearAndMonth(){const t=new Date,e=t.getFullYear();let n=t.getMonth()+1;return n<10&&(n="0"+n),{year:e,month:n}}};t.index.utils=e;
